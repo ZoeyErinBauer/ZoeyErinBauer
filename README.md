@@ -1,6 +1,6 @@
 # Hi, I'm Zoey 👋
 
-I'm building [Shelly](https://github.com/Seafoam-Labs/Shelly-ALPM), a modern package-management experience for Arch Linux and CachyOS. My work at [Seafoam Labs](https://github.com/Seafoam-Labs) focuses on making Linux more accessible without hiding how it works.
+I'm the lead dev for [Shelly](https://github.com/Seafoam-Labs/Shelly-ALPM), a modern package-management experience for Arch Linux and CachyOS. My work at [Seafoam Labs](https://github.com/Seafoam-Labs) focuses on making Linux more accessible without hiding how it works.
 
 <p align="center">
   <a href="https://github.com/Seafoam-Labs/Shelly-ALPM">
