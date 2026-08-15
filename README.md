@@ -2,9 +2,23 @@
 
 I'm building [Shelly](https://github.com/Seafoam-Labs/Shelly-ALPM), a modern package-management experience for Arch Linux and CachyOS. My work at [Seafoam Labs](https://github.com/Seafoam-Labs) focuses on making Linux more accessible without hiding how it works.
 
+<p align="center">
+  <a href="https://github.com/Seafoam-Labs/Shelly-ALPM">
+    <img src="https://raw.githubusercontent.com/Seafoam-Labs/website/main/src/assets/images/chel.png" alt="Chel, the Shelly mascot" width="360">
+  </a>
+</p>
+
 ## What I'm working on
 
 ### [Shelly](https://github.com/Seafoam-Labs/Shelly-ALPM)
+
+[![Build](https://github.com/Seafoam-Labs/Shelly-ALPM/actions/workflows/build-and-publish.yml/badge.svg?branch=development)](https://github.com/Seafoam-Labs/Shelly-ALPM/actions/workflows/build-and-publish.yml)
+[![Latest release](https://img.shields.io/github/v/release/Seafoam-Labs/Shelly-ALPM?label=release)](https://github.com/Seafoam-Labs/Shelly-ALPM/releases/latest)
+[![License: GPL-3.0](https://img.shields.io/github/license/Seafoam-Labs/Shelly-ALPM)](https://github.com/Seafoam-Labs/Shelly-ALPM/blob/development/LICENSE)
+[![AUR](https://img.shields.io/aur/version/shelly?label=AUR)](https://aur.archlinux.org/packages/shelly)
+[![CachyOS](https://img.shields.io/badge/CachyOS-repository-00a9e0)](https://github.com/Seafoam-Labs/Shelly-ALPM#quick-install)
+
+[**Install**](https://github.com/Seafoam-Labs/Shelly-ALPM#quick-install) · [**Documentation**](https://www.seafoam-labs.org/shelly-alpm/) · [**Report an issue**](https://github.com/Seafoam-Labs/Shelly-ALPM/issues/new/choose) · [**Contribute**](https://github.com/Seafoam-Labs/Shelly-ALPM/blob/development/CONTRIBUTING.md)
 
 Shelly is a modern package manager for Arch Linux, written primarily in Zig and backed directly by `libalpm`. It rethinks how people discover, install, update, and manage software while remaining native to the Arch ecosystem.
 
@@ -26,19 +40,30 @@ Shelly is available through CachyOS and the AUR:
 sudo pacman -S shelly
 ```
 
-### [Devario](https://www.seafoam-labs.org/devario/)
+## Featured projects
 
-A managed Linux workstation platform for small-business fleets. Devario uses Shelly as its trusted package transaction boundary, pairing it with Remora software policy, an Aqueous desktop, and Windows-connected identity.
-
-The current focus is completing the installer-led domain-login path, hardening release and repository operations, and preparing measurable mixed-fleet pilots.
-
-### [Aqueous](https://github.com/Seafoam-Labs/Aqueous)
-
-A visually expressive Wayland compositor and tiling window manager written in Zig. Aqueous keeps layouts, rules, input, workspaces, multi-monitor policy, animation, and Vulkan effects together in one process—with performance costs explicit and optional.
-
-### [Atoll](https://github.com/Seafoam-Labs/Atoll)
-
-A .NET service for mirroring Arch User Repository metadata, tracking package history, and providing fast package search and Git Smart HTTP access. It uses MongoDB for authoritative storage and OpenTelemetry for operational visibility.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Seafoam-Labs/Shelly-ALPM">🐚 Shelly</a></h3>
+      Modern package management for Arch Linux and CachyOS, with native GTK and terminal interfaces.
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Seafoam-Labs/Aqueous">🌊 Aqueous</a></h3>
+      A visually expressive Wayland compositor and tiling window manager written in Zig.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Seafoam-Labs/Atoll">🪸 Atoll</a></h3>
+      A .NET service for AUR metadata mirroring, package history, fast search, and Git Smart HTTP access.
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://www.seafoam-labs.org/devario/">🐟 Devario</a></h3>
+      A managed Linux workstation platform combining Remora policy, Shelly transactions, Aqueous desktops, and Windows-connected identity.
+    </td>
+  </tr>
+</table>
 
 ## More from Seafoam Labs
 
@@ -50,6 +75,14 @@ A .NET service for mirroring Arch User Repository metadata, tracking package his
 ## Technologies
 
 `Zig` · `C# / .NET` · `GTK4` · `Wayland / wlroots` · `Vulkan` · `Arch Linux` · `CachyOS` · `libalpm` · `D-Bus` · `MongoDB` · `OpenTelemetry` · `Astro` · `TypeScript`
+
+## Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZoeyErinBauer/ZoeyErinBauer/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZoeyErinBauer/ZoeyErinBauer/output/github-contribution-grid-snake.svg">
+  <img alt="Animated contribution graph" src="https://raw.githubusercontent.com/ZoeyErinBauer/ZoeyErinBauer/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
