@@ -59,7 +59,7 @@ sudo pacman -S shelly
       A .NET service for AUR metadata mirroring, package history, fast search, and Git Smart HTTP access.
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://www.seafoam-labs.org/devario/">🐟 Devario</a></h3>
+      <h3><a href="https://www.seafoam-labs.org/devario/overview/">🐟 Devario</a></h3>
       A managed Linux workstation platform combining Remora policy, Shelly transactions, Aqueous desktops, and Windows-connected identity.
     </td>
   </tr>
