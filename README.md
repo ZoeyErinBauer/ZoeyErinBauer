@@ -12,7 +12,7 @@ I'm building [Shelly](https://github.com/Seafoam-Labs/Shelly-ALPM), a modern pac
 
 ### [Shelly](https://github.com/Seafoam-Labs/Shelly-ALPM)
 
-[![Build](https://github.com/Seafoam-Labs/Shelly-ALPM/actions/workflows/build-and-publish.yml/badge.svg?branch=development)](https://github.com/Seafoam-Labs/Shelly-ALPM/actions/workflows/build-and-publish.yml)
+[![Build](https://github.com/Seafoam-Labs/Shelly-ALPM/actions/workflows/build-and-publish.yml/badge.svg?branch=master)](https://github.com/Seafoam-Labs/Shelly-ALPM/actions/workflows/build-and-publish.yml)
 [![Latest release](https://img.shields.io/github/v/release/Seafoam-Labs/Shelly-ALPM?label=release)](https://github.com/Seafoam-Labs/Shelly-ALPM/releases/latest)
 [![License: GPL-3.0](https://img.shields.io/github/license/Seafoam-Labs/Shelly-ALPM)](https://github.com/Seafoam-Labs/Shelly-ALPM/blob/development/LICENSE)
 [![AUR](https://img.shields.io/aur/version/shelly?label=AUR)](https://aur.archlinux.org/packages/shelly)
